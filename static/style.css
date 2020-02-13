@@ -1,0 +1,156 @@
+/* width */
+::-webkit-scrollbar{
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: Green; 
+}
+::-webkit-scrollbar-track:hover {
+  background: #009001; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: Green; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0020;
+}
+
+.topnav {
+  background-color: Green;
+  margin: auto;
+  height: 10%;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 20px;
+  align-self: center;
+  border: 4px solid red;
+  overflow: hidden;
+}
+body {
+	background: Green;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  width: auto;
+  text-decoration: none;
+  background-color: Green;
+  border: 4px solid red;
+  color: White;
+  overflow: hidden;
+}
+.topnav a:hover {
+  color: Navy;
+  overflow: hidden;
+}
+.main-container {
+  margin: auto;
+  width: 80%;
+  height: 70%;
+  border: 5px solid red;
+  padding: 10px;
+  align-content: center;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.AP-CLASS-OVERVIEW-BOX {
+  margin: auto;
+  width: 20%;
+  height: 30%;
+  border: 4px solid Navy;
+  padding: 5px;
+  align-content: center;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+h1, h3, h5 {
+  font-family: times new roman;
+  color: Navy;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2, h4, h6 {
+  margin-top: 0;
+  font-family: times new roman;
+  color: red;
+  text-align: center;
+}
+
+button {
+	width: 128px;
+	height: 128px;
+	background-color: Green;
+	border: 3px solid Green;
+	padding: 0px;
+}
+
+p, ul, li {
+  font-family: times new roman;
+  font-size: 20px;
+  color: White;
+}
+a {
+  font-family: times new roman;
+  font-size: 20px;
+  color: White;
+  text-decoration: none;
+}
+a:hover {
+  color: Navy;
+}
+input[type="submit"]{
+  background-color: darkgreen;
+  margin: auto;
+  padding: 5px;
+  width:auto;
+  height:auto;
+  font-family: times new roman;
+  font-size: 16px;
+  color: White;
+  text-align: center;
+  border: 2px solid lightgreen;
+  border-radius: 25px;
+}
+input[type="submit"]:hover{
+  background-color: Navy;
+  margin: auto;
+  padding: 5px;
+  width:auto;
+  height:auto;
+  font-family: times new roman;
+  font-size: 16px;
+  color: Red;
+  text-align: center;
+  border: 2px solid Red;
+  border-radius: 25px;
+}
+.code{
+	background-color: White;
+	border: 2px solid rgb(209, 13, 13);
+	color: black;
+	font-family: Helvetica;
+	font-size: 14px;
+	width: 50%;
+	height: 35%;
+	margin: auto;
+	padding: 2px;
+	outline: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+.sideBySideSubmitButton{
+	display: inline-block;
+}

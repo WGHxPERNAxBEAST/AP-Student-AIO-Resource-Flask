@@ -1,0 +1,23 @@
+<DOCTYPE html>
+<html>
+	<head>
+        <title>AP Student All In One Resource</title>
+    	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+	<body>
+		<center>
+			<h1>The AP Student AIO Resource</h1>
+			<h2>Welcome to the all in one resource for AP students</h2>
+			<form action = "{{ url_for('logIn') }}" method = "POST" class="sideBySideSubmitButton">
+				<input type="submit", value="Log In">
+			</form> 
+			<form action = "{{ url_for('signUp') }}" method = "POST" class="sideBySideSubmitButton">
+				<input type="submit", value="Sign Up">
+			</form>
+
+     		<p> At The AP Student All In One Resource, we have all the resources you will ever need, any AP class that you take, we have it. Struggling in your AP class? Say no more. With our site, we have the path to your success.
+     		</p>
+			<img src="https://bryantarchway.com/wp-content/uploads/2017/10/success.jpg">
+		</center> 
+	</body>
+</html>

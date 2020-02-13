@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ap-student-all-in-one"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.1"
+click = "^7.0"
+flask-login = "^0.4.1"
+oauthlib = "^3.1"
+pyOpenSSL = "^19.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
